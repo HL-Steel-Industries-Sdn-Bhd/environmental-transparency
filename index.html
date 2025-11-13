@@ -68,13 +68,22 @@
       box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
 
-    .initiative img, .noticeboard img {
-      width: 100%;
-      max-height: 300px;
-      object-fit: cover;
-      margin-bottom: 15px;
-      border-radius: 5px;
-    }
+    .initiative img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.noticeboard img {
+  width: 490px;       /* 按原始宽度显示 */
+  height: 453px;      /* 按原始高度显示 */
+  object-fit: contain; /* 保持比例 */
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
 
     footer {
       background-color: #004080;
